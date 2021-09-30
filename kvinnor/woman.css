@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+
+button {
+    padding: 5px; 
+    box-sizing: border-box;
+    width: 40% 
+  } 
+
+input {
+    padding: 5px; 
+    box-sizing: border-box;
+    width: 70% 
+}
+
+header{
+    background-color: pink;
+
+}
+header p{
+    color: white;
+}
+
+.Grid-container {
+    padding: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: 50px 75px 50px;
+    width: auto;
+    height: auto; 
+}
+
+
+
+.frakt{
+    grid-row: 1/2;
+    grid-column: 6/8;
+    text-align: center;
+    font-size: 25px;
+
+}
+.frakt p{
+    color: rgb(245, 245, 102);
+
+}
+.cart{
+    
+    grid-row: 1/2;
+    grid-column: 11/12;
+    grid-column-start: 0;
+}
+
+.login{
+    grid-column: 12/13 ;
+    border-radius: 50%;
+    width: 50px;
+    background-image: url("img/Profile.png") ;
+    grid-column-start: 0;
+}
+
+.test{
+    float:right;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+}
+
+.logo{
+   grid-row: 1/4;
+   grid-column: 1/3;
+}
+
+.Searchbar{
+    padding-top: 20px;
+    grid-column: 5/11;
+    align-self: center;
+}
+
+.men,.women,.children,.accs{
+    text-align: center;
+}
+
+.men{
+    grid-column: 3/5;
+    
+}
+
+.women{
+    grid-column: 5/7;
+}
+
+.children{
+    grid-column: 7/9;
+}
+
+.accs{
+    grid-column: 9/11;
+}
+
+.navbar{
+    height: 44px;
+    text-align:center;
+    
+}
+
+.navbar p{
+    padding-top: 25px;
+}
+
+.navbar:hover, .navbar:hover p{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.men-kat{
+    background-color: pink;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.men-kat p{
+    color: white;
+}
+
+.kvinnor{
+    background-color: pink;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.kvinnor p{
+    color: white;
+}
+
+.barn{
+    background-color:pink;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.barn p{
+    color: white;
+}
+
+
+.accs-kat{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.accs-kat{
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.box1{
+    width: calc(100%/5);
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 70%;
+}
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p{
+   color: black; 
+}
+
+.box2, .box3, .box4, .box5{
+    width: calc(100%/5);
+    margin: 1%;
+    height: 70%;
+    background-color: aliceblue;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    min-height: 300px;
+}
+
+
+
+.footer-section1, .footer-section2, .footer-section3, .footer-section4{
+        display: flex;
+        width: 24%;
+        margin: 1%;
+        flex-direction: column;
+} 
+
+.text1{
+    height: 25%;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}

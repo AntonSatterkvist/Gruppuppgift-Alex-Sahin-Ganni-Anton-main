@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    overflow-x: hidden;
+    height: 100%;
+}
+body{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(226, 226, 226);
+    height: 100%;
+}
+header{
+    background-color: rgb(178, 207, 119);
+    background-color: rgb(126, 172, 34);
+    min-height: 229px;
+}
+footer{
+    background-color: yellowgreen;
+
+}
+
+h1{
+    color: black;
+}
+.frakt p{
+    color: black;
+}
+
+
+
+.flex-container{
+    background-color: rgb(126, 172, 34);
+    background-color: rgb(178, 207, 119);
+    min-height: 470px;
+}
+.box1,.box2,.box3,.box4,.box5{
+    height: 95%;
+    width: 20%;
+    background-color: rgb(226, 226, 226);
+    margin-top: -10px;
+}
+
+.tshirt{
+    background-color: rgb(126, 172, 34);
+    background-color: rgb(178, 207, 119);
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.tshirt p{
+    margin-top: -5px;
+    color: black;
+    font-size: 150%;
+}
+
+
+.byxor{
+    background-color: rgb(126, 172, 34);
+    background-color: rgb(178, 207, 119);
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.byxor p{
+    margin-top: -5px;
+    color: black;
+    font-size: 150%;
+}
+
+
+.skor{
+    background-color: rgb(178, 207, 119);
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.skor p{
+    margin-top: -5px;
+    color: black;
+    font-size: 150%;
+}
+.imgs{
+
+    width: 80%;
+    height: 80%;
+}
+
+.navbar p{
+    color:black;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.navbar:hover, .navbar:hover p{
+
+        background-color: black;
+        color: white;
+}
+
+.current, .current p{
+    background-color:black ;
+    color: white;
+
+}
+
+.text1{
+    color: black;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    max-height: inherit;
+}
+
+@media screen and (max-width:1100px) {
+    
+    .box1,.box2,.box3 {
+        width: 32%;
+    }
+
+    .box5,.box4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .frakt{
+        font-size: 20px;
+    }
+    .box1 {
+        width: 49%;
+    }
+    .box2{
+        width: 49% !important;
+    }
+
+    .box5,.box4, .box3{
+        display: none;
+    }
+}
